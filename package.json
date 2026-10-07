@@ -1,0 +1,34 @@
+{
+  "name": "compliance-assessor",
+  "version": "3.1.0",
+  "description": "Airgapped AI agent: RBI Purpose Code classifier + PayPal Sandbox invoicing + influencer trend reports",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "llama": "node --env-file-if-exists=.env scripts/serve-llama.js",
+    "verify": "node --env-file-if-exists=.env scripts/verify-classification.js",
+    "verify:invoice": "node --env-file-if-exists=.env scripts/verify-invoice.js",
+    "mock:paypal": "node scripts/mock-paypal.js",
+    "e2e": "node --env-file-if-exists=.env scripts/e2e.js",
+    "health": "node --env-file-if-exists=.env scripts/health-check.js",
+    "test": "npm run verify && npm run verify:invoice && npm run e2e"
+  },
+  "keywords": [
+    "paypal",
+    "rbi",
+    "purpose-code",
+    "edf",
+    "llama.cpp",
+    "agent-reach",
+    "airgapped"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

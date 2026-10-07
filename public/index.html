@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compliance Assessor — RBI Purpose Codes + PayPal Invoicing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Compliance Assessor</h1>
+    <div class="topbar-controls">
+      <label class="field">
+        <span>User type</span>
+        <select id="user-type" aria-label="User type">
+          <option value="freelancer">Freelancer</option>
+          <option value="startup">Startup</option>
+          <option value="influencer">Influencer</option>
+        </select>
+      </label>
+      <span id="mode-badge" class="badge" title="Inference mode">checking…</span>
+    </div>
+  </header>
+
+  <main id="chat" class="chat" aria-live="polite">
+    <div class="message message-agent">
+      <div class="card">
+        <p>Describe a cross-border payment in plain language. I will classify the RBI
+          Purpose Code, compute the EDF filing deadline, and build a PayPal Sandbox
+          invoice with the code stamped into the invoice number.</p>
+        <p class="muted">Try: <button class="chip" data-sample="I built a React dashboard for a US client for $2000">React dashboard $2000</button>
+          <button class="chip" data-sample="Monthly SaaS subscription revenue from an EU customer, 40 subscribers">SaaS EU subscription</button>
+          <button class="chip" data-sample="Paid brand sponsorship by a UK skincare brand for 2 Instagram reels">UK brand sponsorship</button>
+          <button class="chip" data-sample="Management consulting engagement for a Dubai client">Consulting Dubai</button>
+          <button class="chip" data-sample="YouTube AdSense payout for my channel">YouTube AdSense</button>
+          <button class="chip" data-sample="Monthly salary from my remote job with a US company">US remote salary</button></p>
+      </div>
+    </div>
+  </main>
+
+  <form id="composer" class="composer" autocomplete="off">
+    <input id="input" type="text" placeholder="Type a service description…" aria-label="Service description">
+    <input id="amount" type="text" placeholder="USD amount" aria-label="Amount in USD" class="amount">
+    <button type="submit" id="send">Send</button>
+  </form>
+
+  <section class="panel" id="trend-panel">
+    <h2>Influencer trend report</h2>
+    <form id="trend-form" class="composer" autocomplete="off">
+      <input id="niche" type="text" placeholder="Niche, e.g. AI productivity tools" aria-label="Niche">
+      <button type="submit" id="trend-send">Generate</button>
+    </form>
+    <div id="trend-output" class="trend-output"></div>
+  </section>
+
+  <footer class="footer">
+    <span id="health">health…</span>
+    <span>Airgapped · llama.cpp + GGUF · Agent Reach · PayPal Sandbox</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

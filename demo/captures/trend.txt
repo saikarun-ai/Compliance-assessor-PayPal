@@ -1,0 +1,11 @@
+﻿  PASS  FR-22 report combines channels ΓÇö {"youtube":12,"exa":0,"rss":8,"transcripts":3,"skipped":["exa: mcporter not installed (Exa is optional)"]}
+  PASS  FR-24 sentiment present ΓÇö positive
+  PASS  FR-24 content angle present
+  PASS  FR-24 engagement present ΓÇö 82.3% top quartile, 72.4x median of 9554
+  PASS  FR-25 pricing band present ΓÇö 200-400 USD
+  PASS  FR-25 pricing band is non-degenerate ΓÇö 200-400 USD
+  niche: AI productivity tools
+  summary: The AI productivity tool space is experiencing significant growth, with a strong focus on practical guides and tutorials. ThereΓÇÖs a clear emphasis on efficiency and workflow optimization, driven by the increasing adoptio
+  angle: A practical, step-by-step guide to choosing and utilizing 12 AI tools to boost productivity, focusing on real-world application and overcoming common challenges
+  platforms: YouTube, News / RSS ┬╖ sentiment positive (0.79)
+  band: 200-400 USD ┬╖ 21672 ms ┬╖ llm used

@@ -1,0 +1,33 @@
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s01.png'
+duration 23.550
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s02.png'
+duration 26.365
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s03.png'
+duration 32.339
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s04.png'
+duration 24.605
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s05.png'
+duration 26.029
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s06.png'
+duration 29.324
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s07.png'
+duration 27.884
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s08.png'
+duration 31.569
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s09.png'
+duration 22.755
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s10.png'
+duration 28.149
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s11.png'
+duration 20.925
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s12.png'
+duration 29.669
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s13.png'
+duration 18.921
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s14.png'
+duration 27.144
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s15.png'
+duration 23.790
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s16.png'
+duration 27.344
+file 'D:/Gen AI Applications/Neural Projects/compliance-assessor/demo/slides/s16.png'

@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/*.json
+!data/.gitkeep
+models/
+tools/llama-bin/
+tools/*.log
+*.gguf
+demo.mp4
+npm-debug.log*
+.DS_Store
+Thumbs.db
